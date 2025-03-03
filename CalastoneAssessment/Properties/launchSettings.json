@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CalastoneAssessment": {
+      "commandName": "Project",
+      "commandLineArgs": "input.txt"
+    }
+  }
+}
