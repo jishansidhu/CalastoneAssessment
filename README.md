@@ -1,15 +1,16 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is candidate coding assessment solution for Text Filter problem 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1.	Solution uses 'Chain of responsibility' pattern to allow text filtering via a chain of filters
+2.  SOLID principles have been followed for maintainability and flexibility
+3.  Exception handling and logging is added wherever required 
+4.	Unit tests have been written using NUnit and NSubstitute
+5.	Solution is built in .Net Core 8.0	
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Pass file name in parameters (Right click project -> Properties -> Debug -> Command Line arguments). By default, this has been set to 'input.txt'.
+Press F5 to run the solution and see the results in output window 
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
